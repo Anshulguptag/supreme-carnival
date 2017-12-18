@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 a=[[1,2,6],[3,4,8],[5,6,9]]
 np_a=np.array(a)
-b=[[9,8,4],[7,6,5],[7,6,2]]
+b=[[9,8,8],[7,6,5],[7,6,2]]
 np_b=np.array(b)
 c=np.empty(10)
 c=np_a+np_b
