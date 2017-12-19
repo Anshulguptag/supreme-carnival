@@ -8,4 +8,16 @@ area=np.empty(6)
 
 area=length*breadth
 
-print area
+max =area.max()
+min =area.min()
+
+size=np.empty(6)
+avg=area.mean()
+size=(area-avg)/(max-min)
+
+hypo=np.empty(6)
+
+hypo=0.51+0.26*size+0.25*(size)**2
+print hypo
+plt.plot(hypo,size)
+plt.show()
